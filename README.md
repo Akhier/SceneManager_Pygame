@@ -2,3 +2,5 @@
 
 # SceneManager_pygame
 A Scene Manager based around pygame
+
+To get an idea of how it works check out the example
