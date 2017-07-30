@@ -14,6 +14,9 @@ class SceneManager:
         resolution = (settings['screen_width'], settings['screen_height'])
         self.screen = pygame.display.set_mode((resolution))
         pygame.display.set_caption(settings['caption'])
+        key_repeat = settings['key_repeat']
+        if key_repeat:
+            pygame.key.set_repeat(key_repeat[0], key_repeat[1])
         self.clock = pygame.time.Clock()
         self.fps = settings['fps']
         self.quit_flag = False

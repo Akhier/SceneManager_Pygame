@@ -2,5 +2,6 @@
     "screen_width": 640,
     "screen_height": 480,
     "fps": 60,
-    "caption": "Example"
+    "caption": "Example",
+    "key_repeat": [1, 500]
 }
