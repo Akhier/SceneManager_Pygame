@@ -3,7 +3,9 @@ import json
 
 
 class SceneManager:
-    """
+    """Represents the main game and contains the game loop
+
+    It must be used with Scene objects that inherit from SceneTemplate
     """
 
     def __init__(self):
