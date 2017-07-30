@@ -8,8 +8,8 @@ class SceneManager:
     It must be used with Scene objects that inherit from SceneTemplate
     """
 
-    def __init__(self):
-        with open("SceneManagerSettings.json") as json_data:
+    def __init__(self, settingsfile):
+        with open(settingsfile) as json_data:
             settings = json.load(json_data)
         resolution = (settings['screen_width'], settings['screen_height'])
         self.screen = pygame.display.set_mode((resolution))

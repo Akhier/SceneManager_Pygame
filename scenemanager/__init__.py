@@ -3,5 +3,5 @@ __author__ = "Akhier Dragonheart"
 __license__ = "MIT"
 __all__ = "SceneManager, SceneTemplate"
 
-from SceneManager import SceneManager
-from SceneTemplate import SceneTemplate
+from .SceneManager import SceneManager
+from .SceneTemplate import SceneTemplate
