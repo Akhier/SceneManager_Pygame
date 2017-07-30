@@ -11,7 +11,7 @@ class SceneTemplate:
     def on_update(self):
         raise NotImplementedError("on_update abstract method must be defined")
 
-    def on_event(self, event):
+    def on_event(self, events):
         raise NotImplementedError("on_even abstract method must be defined")
 
     def on_render(self, screen):
